@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Define a route for the root URL
 @app.route('/')
 def hello():
-    return 'Hello, Flask!'
+    return 'Hello, Flask test CI/CD!'
 
 # Run the app in debug mode if the script is called directly
 if __name__ == '__main__':
